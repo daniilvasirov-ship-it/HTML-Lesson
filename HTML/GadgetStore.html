@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин - Вступление к CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .main-block {
+            background-color: pink;
+            border: 6px double black;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .menu {
+            background-color: lightgray;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .products {
+            display: grid;
+            gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        }
+
+        .product {
+            border: 2px solid;
+            text-align: center;
+            padding: 10px;
+            background-color: white;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <a href="#">Главная</a>
+        <a href="#">О нас</a>
+        <a href="#">Товары</a>
+        <a href="#">Контакты</a>
+    </div>
+
+    <div class="main-block">
+   <div class="products">
+   
+            <div class="product">
+                <img src="https://avatars.mds.yandex.net/get-marketpic/6031563/pic32c8971faea2fd82e0d3105a76ce6faa/orig" alt="Товар 1">
+                <h3>Смартфон Galaxy X</h3>
+                <p>мощный смартфон с тройной камерой</p>
+                <button>Купить</button>
+            </div>
+
+  
+            <div class="product">
+                <img src="https://avatars.mds.yandex.net/i?id=9edc22ce5b8a5cea5bbeef22951010c4_l-12618389-images-thumbs&n=13" alt="Товар 2">
+                <h3>Ноутбук UltraBook Pro</h3>
+                <p>легкий и производительный ноутбук</p>
+                <button>Купить</button>
+            </div>
+
+
+            <div class="product">
+                <img src="https://avatars.mds.yandex.net/get-mpic/11487459/2a00000191c90f86a82147df6377e397eab1/orig" alt="Товар 3">
+                <h3>iPhone 15 Pro"</h3>
+                <p>Флагманский смартфон с титановым корпусом, процессором A17 Pro и камерой 48 МП. Поддержка 5G, всегда включенный дисплей и защита от воды IP68.</p>
+                <button>Купить</button>
+            </div>
+
+    
+            <div class="product">
+                <img src="https://cdn1.youla.io/files/images/780_780/65/b6/65b60956a00b61a85d057ab5-2.jpg" alt="Товар 4">
+                <h3>Apple MacBook Air 13" M2</h3>
+                <p>Ультратонкий ноутбук с чипом Apple M2, дисплеем Liquid Retina 13.6" и автономностью до 18 часов. Идеален для работы и творчества.</p>
+                <button>Купить</button>
+                   </div>
+
+           <div class="product">
+    <img src="https://avatars.mds.yandex.net/get-mpic/17846399/2a00000199610e1d5c17c3a1c26d7c684bd0/orig" alt="iPhone 15 Pro">
+    <h3>iPhone 14 Pro</h3>
+    <p>Титановый корпус, динамический остров, камера 48 МП. Флагман Apple.</p>
+    <button>Купить</button>
+</div>
+
+<div class="product">
+    <img src="https://avatars.mds.yandex.net/get-mpic/7698402/2a0000018f1453a467aab863b0d00f48656c/orig" alt="Samsung Galaxy S23 Ultra">
+    <h3>Samsung Galaxy S23 Ultra</h3>
+    <p>S-Pen, камера 200 МП, процессор Snapdragon 8 Gen 2. Мощный Android.</p>
+    <button>Купить</button>
+</div>
+
+<div class="product">
+    <img src="https://cdn-img.pttavm.com/pimages/592/985/957/89df34dc-b234-4943-a6db-d26a97e6255b.webp?v=201910111530" alt="Xiaomi 13T Pro">
+    <h3>Xiaomi 13T Pro</h3>
+    <p>Leica-камеры, быстрая зарядка 120W, отличное соотношение цены и качества.</p>
+    <button>Купить</button>
+</div>
+
+<div class="product">
+    <img src="https://hi-stores.ru/upload/iblock/ae1/ghdfyh581tj5idn4wrm5wef9yim2qnoq.jpg" alt="Google Pixel 8 Pro">
+    <h3>Google Pixel 8 Pro</h3>
+    <p>Лучшая камера на Android, чистый Google-опыт, ИИ-функции.</p>
+    <button>Купить</button>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

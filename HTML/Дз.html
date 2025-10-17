@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Домашняя работа - Формы</title>
+    <style>
+        .menu {
+            background-color: #333;
+            padding: 15px 0;
+        }
+
+        .menu li {
+            display: inline;
+        }
+
+        .menu a {
+            color: white;
+        }
+
+        .menu ul {
+            text-align: center;
+        }
+
+        .video-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .contact-form {
+            padding: 20px;
+            background-color: grey;
+            border-radius: 10px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a>Главная</a></li>
+            <li><a>О нас</a></li>
+            <li><a>Услуги</a></li>
+            <li><a>Контакты</a></li>
+        </ul>
+    </nav>
+
+    <div class="video-container">
+        <video controls>
+            <source src="https://assets.mixkit.co/videos/4830/4830-1080.mp4" type="video.mp4">
+        </video>
+    </div>
+    <center>
+        <h2> Свяжитесь с нами по данной форме! </h2>
+    </center>
+
+    <div class="contact-form">
+        <form>
+            <div class="form-group">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Отправить сообщение</button>
+        </form>
+    </div>
+</body>
+
+</html>
